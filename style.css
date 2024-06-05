@@ -21,12 +21,16 @@ header{
         width:100%;
         max-width: 1440px;
         margin-bottom:20px;
-    }
+}
     .headermenu{
         margin:30px;
         display:flex;
         justify-content:flex-end;
     }
+    a.hebergementmenu{
+    color:blue;
+    margin:20px;
+}
 
 
 body {
