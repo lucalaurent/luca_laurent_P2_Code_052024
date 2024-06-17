@@ -3,6 +3,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -12,10 +13,30 @@
 .fa-solid {
     color: var(--main-color);
 }
+header{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width:100%;
+        max-width: 1440px;
+        margin-bottom:20px;
+}
+    .headermenu{
+        margin:30px;
+        display:flex;
+        justify-content:flex-end;
+    }
+    a.hebergementmenu{
+    color:blue;
+    margin:20px;
+}
+
 
 body {
     display: flex;
     justify-content: center;
+    flex-direction:column;
 }
 
 .main-container {
