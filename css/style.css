@@ -13,30 +13,38 @@
 .fa-solid {
     color: var(--main-color);
 }
-header{
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        width:100%;
-        max-width: 1440px;
-        margin-bottom:20px;
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 20px;
 }
-    .headermenu{
-        margin:30px;
-        display:flex;
-        justify-content:flex-end;
-    }
-    a.hebergementmenu{
-    color:blue;
-    margin:20px;
+.logohead {
+    width:50%;
+    height:auto;
+    margin-left:3em;
+}
+
+.headermenu {
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a.hebergementmenu {
+    color: blue;
+    margin: 20px;
 }
 
 
 body {
     display: flex;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .main-container {
