@@ -23,28 +23,29 @@ header {
     max-width: 1440px;
     margin-bottom: 20px;
 }
+
 .logohead {
     width:50%;
     height:auto;
     margin-left:3em;
 }
 
-.headermenu {
-    margin: 30px;
+.headermenu nav{
     display: flex;
-    justify-content: flex-end;
 }
-
-a.hebergementmenu {
-    color: blue;
-    margin: 20px;
+.headermenu a{
+    padding:40px 40px 20px 40px;
 }
-
+.headermenu a:hover{
+color:var(--main-color);
+border-top:solid 5px var(--main-color);
+}
 
 body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin:0px;
 }
 
 .main-container {
@@ -192,5 +193,31 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 20px;
+    padding-top:10px;
+}
+.logohead{
+    display:grid; 
+    place-items:center;
+}
+.headermenu nav{
+    display: flex;
+    justify-content:space-between;
+}
+.headermenu a{
+    padding:20px 50px 20px 50px;
+    border-bottom:solid 5px lightgray;
+}
+.headermenu a:hover{
+color:var(--main-color);
+border-top:none;
+border-bottom:solid 5px var(--main-color);
+}
 }
