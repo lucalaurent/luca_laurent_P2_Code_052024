@@ -32,17 +32,21 @@
         <main>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
-            <form method="get" action="">
-                <label for="recherche">Rechercher</label> : <input type="search" id="recherche">
-                <button>Rechercher</button>
-                <fieldset id="Filters">
-                    <p>Filtres</p>
-                    <button>Économique</button>
-                    <button>Famillial</button>
-                    <button>Romantique</button>
-                    <button>Nos Pépites</button>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </fieldset>
+            <div class="searchbar">
+                <form method="get" action="">
+                    <label for="recherche"><i class="fa-solid fa-location-dot"></i></label><input type="search"
+                        id="recherche">
+                    <button>Rechercher</button>
+            </div>
+            <fieldset id="Filters">
+                <p>Filtres</p>
+                <button><i class="fa-sharp fa-solid fa-money-bill-wave"></i>Économique</button>
+                <button><i class="fa-solid fa-person"></i>Famillial</button>
+                <button><i class="fa-solid fa-heart"></i>Romantique</button>
+                <button><i class="fa-sharp fa-solid fa-fire"></i>Nos Pépites</button>
+                <p><i class="fa-solid fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville
+                </p>
+            </fieldset>
             </form>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
