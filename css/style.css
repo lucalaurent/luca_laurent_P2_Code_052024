@@ -37,6 +37,7 @@ header {
 
 .headermenu a {
     padding: 40px 40px 20px 40px;
+    border-top:solid 5px white;
 }
 
 .headermenu a:hover {
@@ -63,13 +64,12 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0px;
+    margin:auto;
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
 }
 
