@@ -46,6 +46,11 @@ header {
 }
 
 /** Search & Filters **/
+form{
+    display:flex;
+    flex-direction:row;
+    justify-content:baseline;
+}
 form label{
     background-color: lightgray;
     border-radius:10px 0 0 10px;
