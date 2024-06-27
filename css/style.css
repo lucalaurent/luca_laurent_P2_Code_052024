@@ -103,11 +103,28 @@ input#recherche{
 .filters:hover{
   background: var(--filter-bg-color);
 }
+#info{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
+}
+#info .le_i{
+    border:solid 2px lightgrey;
+    color:blue;
+    font-family:inherit;
+    border-radius:70px 70px 70px 70px;
+    padding: 5px 12px 5px 12px;
+    margin-right:5px;
+}
 body {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin:auto;
+}
+main{
+    margin:3em;
 }
 
 .main-container {
@@ -151,6 +168,7 @@ a {
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
+    margin-top:1em;
     display: flex;
     justify-content: space-between;
 }
