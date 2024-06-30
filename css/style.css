@@ -202,6 +202,12 @@ a {
 .hebergements {
     width: 65%;
 }
+.herbergements-cards .card img{
+    width: 10%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 
 /****** Populaires ***********/
 .populaires {
