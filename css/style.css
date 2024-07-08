@@ -204,6 +204,10 @@ a {
     
     width: 65%;
 }
+.hebergements-cards{
+    display:flex;
+    flex-wrap:wrap;
+}
 .hebergements-cards .card{
     width:25%;
 }
