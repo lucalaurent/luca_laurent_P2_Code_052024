@@ -302,14 +302,21 @@ a {
 }
 .activites{
     display:flex;
+    justify-content:space-around;
 }
 .activites .card{
+    margin-top:20px;
+    padding:0;
     width:20%;
     height:min-content;
 }
+.activites .card-title{
+margin:5px;
+font-size:12px;
+}
 .activites .card img{
     width:100%;
-    height:auto;
+    height:300px;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
 }
