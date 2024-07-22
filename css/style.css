@@ -335,10 +335,9 @@ a {
 }
 
 .activites-card .card-title {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 5px;
     font-size: 12px;
+    margin-left:10px;
+    margin-bottom:10px;
 }
 
 .activites-card .card img {
@@ -371,16 +370,6 @@ footer ul{
 footer li{
     margin:10px;
 }
-/**
-.a-propos-footer{
-    list-style-type: none;
-}
-.nos-hebergements{
-    list-style-type: none;
-}
-.assistance{
-    list-style-type: none;
-}**/
 
 
 
