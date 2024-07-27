@@ -49,7 +49,6 @@ header {
 form {
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
 }
 
 form label {
@@ -70,7 +69,6 @@ input#recherche {
     border-bottom: solid 1px lightgrey;
     border-left: none;
     border-right: none;
-    margin: none;
 }
 
 .searchbar button {
@@ -80,7 +78,6 @@ input#recherche {
     color: white;
     padding: 10px 15px 10px 15px;
     font-weight: 500;
-    margin: none;
 }
 
 .searchbar button:hover {
@@ -150,6 +147,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items:center;
     margin: auto;
 }
 
@@ -187,7 +185,6 @@ a {
 
 .card-title {
     font-size: 16px;
-    margin-bottom: 0;
     margin-top: 5px;
 }
 
@@ -312,7 +309,6 @@ a {
     flex-direction: column;
     width: 100%;
     margin-top: 20px;
-    padding: 20px;
 }
 
 .activites-title {
@@ -322,27 +318,29 @@ a {
 .activites-card {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .activites-card .card {
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 10px;
     padding: 0;
-    width: 25%;
-   /** height: 419px;**/
+    width: 20%;
+    height: auto;
 }
 
 .activites-card .card-title {
     font-size: 12px;
-    margin-left:10px;
-    margin-bottom:10px;
+    margin-left: 10px;
+    height:15%;
+    border-bottom:0;
+    margin-bottom:0;
 }
-
+.activites-card .card-title h3{
+margin-block-start:7%;
+}
 .activites-card .card img {
     width: 100%;
-    height: 375px;
+    height: 85%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -355,20 +353,24 @@ footer {
     margin-right: 3em;
     margin-left: 3em;
 }
-.footer-menu{
-    width:80%;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
+
+.footer-menu {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-footer h4{
-    margin:0;
+
+footer h4 {
+    margin: 0;
 }
-footer ul{
+
+footer ul {
     list-style-type: none;
 }
-footer li{
-    margin:10px;
+
+footer li {
+    margin: 10px;
 }
 
 
@@ -443,16 +445,22 @@ footer li{
     .activites-card {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-evenly;
     }
 
     .activites-card .card {
-        margin-top: 20px;
-        margin-right: 20px;
-        margin-left: 10px;
-        padding: 0;
+        width: 20%;
+        height:auto;
+    }
+    .activites-card .card img {
         width: 100%;
-        height: 25%;
+        height: 85%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .activites-card .card-title{
+        flex-wrap:wrap;
+        overflow:hidden;
     }
 }
 
@@ -463,8 +471,6 @@ footer li{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: none;
-        padding: none;
     }
 
     header {
@@ -540,14 +546,25 @@ footer li{
     .hebergements-cards .card {
         width: 100%;
     }
-    footer{
-        border:0;
-        margin:0;
+
+
+    footer {
+        border: 0;
+        margin: 0;
     }
-    .footer-menu{
-        width:100%;
-        display:flex;
-        flex-direction:column;
-        justify-content:space-between;
-        align-items:flex-start;
+.activites-card{
+    flex-direction:column;
+    width:auto;
+}
+.activites-card .card{
+    height:5%;
+}
+
+    .footer-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
