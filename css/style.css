@@ -88,6 +88,9 @@ input#recherche {
 .searchbar button:hover {
     cursor: pointer;
 }
+.searchbar button .fa-solid {
+    display: none;
+}
 
 ::placeholder {
     color: black;
@@ -400,12 +403,6 @@ footer li {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media screen and (min-width:1024px) {
-    .searchbar button .fa-solid {
-        display: none;
-    }
-}
-
 @media (max-width: 1024px) {
     .headermenu{
         width:50%;
@@ -496,7 +493,7 @@ footer li {
     }
 
     /* Small devices (phones, less than 768px) */
-    @media (max-width: 767.98px) and (min-width: 375px) {
+    @media (max-width: 767.98px) {
         body {
             display: flex;
             flex-direction: column;
