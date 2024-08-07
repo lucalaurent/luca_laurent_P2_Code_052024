@@ -19,9 +19,9 @@
 header {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     max-width: 1440px;
     margin-bottom: 20px;
 }
@@ -30,13 +30,13 @@ header {
     width: 50%;
     height: auto;
     margin-left: 3em;
+    margin-top:2em;
 }
 
 .headermenu {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
-    width: 20%;
     padding-right:15px;
 }
 
@@ -513,14 +513,15 @@ footer li {
         }
 
         .logohead {
-            display: grid;
-            place-items: center;
+            margin-top:20px;
+            margin-bottom:20px;
         }
 
         .headermenu {
             display: flex;
             justify-content: space-between;
             width: 100%;
+            padding:0;
         }
 
         .headermenu a {
@@ -529,6 +530,7 @@ footer li {
             justify-content: space-around;
             align-items: baseline;
             width: 50%;
+            font-size: larger;
         }
 
         .headermenu a:hover {
