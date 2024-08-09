@@ -169,7 +169,7 @@ body {
 }
 
 main {
-   margin: 3em;
+    margin: 3em;
 }
 
 .main-container {
@@ -566,46 +566,58 @@ footer li {
 
     .filters {
         display: inline-block;
-        width: 45%; /* Each button takes up almost half of the container's width */
-        margin: 5px; /* Adds space between rows */
-        padding: 10px 20px; /* Optional: button styling */
+        width: 45%;
+        /* Each button takes up almost half of the container's width */
+        margin: 5px;
+        /* Adds space between rows */
+        padding: 10px 20px;
+        /* Optional: button styling */
         box-sizing: border-box;
         font-size: 2.75vw;
-        white-space: nowrap; /* Ensures padding is included in the width */
+        white-space: nowrap;
+        /* Ensures padding is included in the width */
     }
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
         justify-content: space-around;
-        display:flex;
+        display: flex;
     }
+
     .hebergements-and-populaires section {
         background-color: var(--main-bg-color);
-        border-radius:0;
+        border-radius: 0;
         padding: 30px;
         box-sizing: border-box;
-        width:100%;
+        width: 100%;
         justify-self: center;
     }
+
     main .hebergements-and-populaires {
-        margin: 0; /* or any specific margin value */
+        margin: 0;
+        /* or any specific margin value */
     }
 
     .populaires {
         width: 100%;
         margin-bottom: 30px;
-        background-size: cover; /* Ensure background covers the entire section */
-        background-repeat: no-repeat; /* Prevent the background from repeating */
-        background-position: center; /* Center the background image */
-        border-radius: 0; /* Remove border radius */
-        margin:0;
-        box-sizing:border-box;
-        padding:0;
+        background-size: cover;
+        /* Ensure background covers the entire section */
+        background-repeat: no-repeat;
+        /* Prevent the background from repeating */
+        background-position: center;
+        /* Center the background image */
+        border-radius: 0;
+        /* Remove border radius */
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
     }
 
     .hebergements {
         flex-direction: column;
         flex-wrap: wrap;
+        background-color: white;
     }
 
     .hebergements a {
@@ -627,6 +639,7 @@ footer li {
     footer {
         border: 0;
         margin: 0;
+        width: 100%;
     }
 
     .activites-card {
