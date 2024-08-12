@@ -74,7 +74,6 @@ input#recherche {
     border-bottom: solid 1px lightgrey;
     border-left: none;
     border-right: none;
-    width: 100%;
 }
 
 .searchbar button {
@@ -377,8 +376,7 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     background-color: #F2F2F2;
-    margin-right: 3em;
-    margin-left: 3em;
+   width:100%;
 }
 
 .footer-menu {
@@ -545,6 +543,9 @@ footer li {
 
     .searchbar button .text {
         display: none;
+    }
+    input#recherche{
+        width:100%;
     }
 
     .searchbar button {
