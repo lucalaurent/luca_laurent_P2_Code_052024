@@ -335,7 +335,7 @@ a {
 .activites-card {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left:2em;
 }
 
@@ -373,7 +373,7 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     background-color: #F2F2F2;
-    width: 100%;
+    width:90%;
 }
 
 .footer-menu {
@@ -484,6 +484,9 @@ footer li {
         border: 0;
         margin: 0;
         padding: 10px;
+    }
+    footer{
+        width:100%;
     }
 }
 
@@ -603,14 +606,7 @@ footer li {
     .hebergements-and-populaires section {
         border-radius: 0;
     }
-
-   /* main .hebergements-and-populaires {
-        margin: 0;
-         
-    }*/
-
-
-
+    
     .hebergements {
         flex-direction: column;
         flex-wrap: wrap;
