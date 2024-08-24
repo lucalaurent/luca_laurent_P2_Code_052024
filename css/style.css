@@ -169,6 +169,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding:0;
+    margin:auto;
+    max-width:1440px;
 }
 
 a {
@@ -578,7 +580,7 @@ footer li {
         padding: 10px 20px 10px 10px;
         /* Optional: button styling */
         box-sizing: border-box;
-        font-size: 15px;
+        font-size: 0.75em;
         white-space: nowrap;
         /* Ensures padding is included in the width */
     }
@@ -669,11 +671,5 @@ footer li {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-    }
-}
-
-@media (max-width: 539px) {
-    .filters {
-        font-size: 12px;
     }
 }
